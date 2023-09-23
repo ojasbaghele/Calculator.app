@@ -1,8 +1,12 @@
 body{
     margin: 0px;
     padding: 0px;
+    height: 100%;
     background: linear-gradient(to top left,black,rgb(84, 84, 84));
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    height: 100%;
 }
 #app{
     background-color: rgba(50, 50, 50, 0.71);
@@ -74,7 +78,10 @@ button{
 @media only screen and (max-width: 590px){
     #app{
     margin-left: 5%;
-    margin-right: 5%;}
+    margin-right: 5%;
+    margin-top: 35%;
+    margin-bottom: 38%;
+    }
 
     button{
         font-size: 25px;
@@ -82,4 +89,8 @@ button{
         margin: 1%;
         border-radius: 10px;
     }
+    #equals{
+        width: 112px;
+    }
+
 }
