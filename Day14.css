@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to top left,black,rgb(84, 84, 84));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#app{
+    background-color: rgba(50, 50, 50, 0.71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid rgba(179, 176, 176, 0.708);
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    padding: 2%;
+    height: fit-content;
+}
+h1{
+    text-align: center;
+    color: rgba(250, 235, 215, 0.814);
+    padding-bottom: 5%;
+}
+#input{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.437);
+    height: 30px;
+    width: 80%;
+    font-size: 25px;
+    justify-content: center;
+    margin-left: auto;margin-right: auto;
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255);
+    border-radius: 10px;
+}
+#buttons_area{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 35px;
+}
+#btn_cl{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.614);
+    font-size: 30px;
+    height:60px; width: 65px;
+    margin: 1%;
+    border-radius: 20px;
+}
+#equals{
+    width: 140px;
+    background-color: rgba(91, 248, 60, 0.677);
+}
+#X{
+    color: red;
+}
+@media only screen and (max-width: 1250px){
+    #app{
+    margin-left: 15%;
+    margin-right: 15%;}
+}
+@media only screen and (max-width: 590px){
+    #app{
+    margin-left: 5%;
+    margin-right: 5%;}
+
+    button{
+        font-size: 25px;
+        height:45px; width: 50px;
+        margin: 1%;
+        border-radius: 10px;
+    }
+}
